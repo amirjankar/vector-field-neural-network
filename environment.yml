@@ -1,0 +1,5 @@
+name: vfneunet
+channels:
+  - defaults
+prefix: C:\Users\anish\AppData\Local\conda\conda\envs\vfneunet
+
