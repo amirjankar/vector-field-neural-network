@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='vfneunet',
       version='0.1',
@@ -7,5 +7,5 @@ setup(name='vfneunet',
       author='Anish Mirjankar',
       author_email='anishmirjankar@gmail.com',
       license='MIT',
-      packages=['vfneunet'],
+      packages=find_packages(),
       zip_safe=False)
