@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='faketrader',
       version='0.1',
@@ -7,5 +7,5 @@ setup(name='faketrader',
       author='Anish Mirjankar',
       author_email='anishmirjankar@gmail.com',
       license='MIT',
-      packages=['faketrader'],
+      packages=find_packages(),
       zip_safe=False)
