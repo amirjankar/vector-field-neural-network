@@ -9,10 +9,6 @@ node.py:
     - WorkerNode: receives vector assignment, "executes trade"
     - MasterNode: manages all vector assignments
     - NodeFactory: generates, scales nodes
-
-tests/
-    testNodeFactory.py
-    testNodes.py
 """
 
 __all__ =  ['WorkerNode', 

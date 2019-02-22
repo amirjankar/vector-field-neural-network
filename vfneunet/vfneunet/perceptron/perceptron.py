@@ -1,6 +1,6 @@
 from sklearn.neural_network import MLPClassifier
 
-class MatrixMLP(MLPClassifier):
+class MatrixPerceptron(MLPClassifier):
     """
     This class converts an MLP classifier to generate matrix transformations
     trained on vector-field datasets.
